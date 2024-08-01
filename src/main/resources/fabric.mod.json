@@ -3,14 +3,14 @@
   "id": "soundcategories",
   "version": "${version}",
   "name": "Sound Categories",
-  "description": "Allows mods to define custom sound categories.",
+  "description": "Allows mods to define custom sound categories. Custom build by KoishiMoe. DO NOT FEEDBACK TO THE ORIGINAL AUTHORS.",
   "authors": [
     "stashymane",
     "lonefelidae16"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/sound-categories",
-    "sources": "https://github.com/stashingco/sound-categories/"
+    "homepage": "https://github.com/lolicode-org/sound-categories",
+    "sources": "https://github.com/lolicode-org/sound-categories"
   },
   "license": "CC0-1.0",
   "environment": "client",
