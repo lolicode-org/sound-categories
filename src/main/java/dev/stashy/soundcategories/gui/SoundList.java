@@ -74,7 +74,7 @@ public class SoundList extends ElementListWidget<SoundList.SoundEntry> {
     }
 
     public int getRowWidth() {
-        return 400;
+        return 310;
     }
 
     private SimpleOption<?> createCustomizedOption(SoundCategory category) {

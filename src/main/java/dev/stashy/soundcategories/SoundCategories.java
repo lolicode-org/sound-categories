@@ -41,10 +41,10 @@ public class SoundCategories implements PreLaunchEntrypoint {
     public static final Map<SoundCategory, Text> TOOLTIPS = Maps.newHashMap();
 
     public static final ButtonTextures SETTINGS_ICON = new ButtonTextures(
-            new Identifier(MOD_ID, "settings/button"),
-            new Identifier(MOD_ID, "settings/disabled"),
-            new Identifier(MOD_ID, "settings/hover"),
-            new Identifier(MOD_ID, "settings/disabled")
+            Identifier.of(MOD_ID, "settings/button"),
+            Identifier.of(MOD_ID, "settings/disabled"),
+            Identifier.of(MOD_ID, "settings/hover"),
+            Identifier.of(MOD_ID, "settings/disabled")
     );
 
     /**
