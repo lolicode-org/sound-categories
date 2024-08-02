@@ -3,25 +3,13 @@
 Fabric library that allows mods to add more sound categories, and modifies the Minecraft sound settings menu to fit as
 many categories as required.
 
+**This is a custom build of sound-categories, as the upstream is doing some refactoring and I need a stable version for my mod...**
+
 ## Adding to your project
 
-The build artifact is hosted on [my personal Maven server](https://repo.stashy.dev). Add the following to your
-repositories block:
+As this build is primarily for my own use, I will not be publishing binaries to any repository. If you really need it, feel free to build it yourself.
 
-```groovy
-maven {
-    name = "stashymane's repo"
-    url = "https://repo.stashy.dev/releases"
-}
-```
-
-And the following to your dependencies:
-
-```groovy
-include("dev.stashy:sound-categories:${project.soundcategories_version}")
-```
-
-Then add the mod version to your gradle.properties. Make sure to `include()` to embed the library into your mod, as otherwise the user will have to download
+Make sure to `include()` to embed the library into your mod, as otherwise the user will have to download
 it separately.
 
 ## Adding a category
