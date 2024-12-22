@@ -24,6 +24,10 @@ public class CustomSoundOptionsScreen extends AbstractSoundListedScreen {
     }
 
     @Override
+    protected void initBody() {
+    }
+
+    @Override
     public boolean mouseScrolled(double mouseX, double mouseY, double horizontalAmount, double verticalAmount) {
         return this.list.mouseScrolled(mouseX, mouseY, horizontalAmount, verticalAmount);
     }

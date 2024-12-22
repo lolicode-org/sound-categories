@@ -13,12 +13,6 @@ public abstract class AbstractSoundListedScreen extends GameOptionsScreen {
     }
 
     @Override
-    protected void initTabNavigation() {
-        super.initTabNavigation();
-        this.list.setDimensions(this.width, this.layout.getContentHeight());
-    }
-
-    @Override
     protected void init() {
         this.list = new SoundList(this.client, this.width, this.height - 64, 32, 25);
         super.init();
